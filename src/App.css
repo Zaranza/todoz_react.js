@@ -1,0 +1,71 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.app {
+  width: 360px;
+  background-color: darkblue;
+  color: white;
+  text-align: center;
+}
+
+.app-header {
+  position: sticky;
+  top: 0;
+  padding: 5px 10px;
+  background-color: darkblue;
+}
+
+.app-header h1 {
+  margin: 0;
+}
+
+.tasklist {
+  border: 2px solid yellow;
+}
+
+.footer {
+  padding: 20px;
+}
+
+.task-container {
+  background-color: green;
+  margin: 20px;
+  padding: 5px;
+  font-size: 1.5rem;
+}
+
+.task-container h5 {
+  margin: 0;
+}
+
+.task-container h3 {
+  margin: 0;
+}
+
+.task-container button {
+  border: none;
+  margin: 10px;
+  padding: 5px;
+  font-size: 1rem;
+  background-color: lightgreen;
+  cursor: pointer;
+  transition: 250ms ease-in;
+}
+
+.task-container button:hover {
+  background-color: darkgreen;
+  color: white;
+}
+
+.inactive {
+  background-color: gray;
+}
+
+.footer-container {
+  position: sticky;
+  bottom: 0;
+  padding: 10px;
+  background-color: darkblue;
+}
