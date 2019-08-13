@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/todoz_reactjs/static/css/main.906cd648.chunk.css",
+    "main.js": "/todoz_reactjs/static/js/main.ea2cc3aa.chunk.js",
+    "main.js.map": "/todoz_reactjs/static/js/main.ea2cc3aa.chunk.js.map",
+    "runtime~main.js": "/todoz_reactjs/static/js/runtime~main.a70ea9a1.js",
+    "runtime~main.js.map": "/todoz_reactjs/static/js/runtime~main.a70ea9a1.js.map",
+    "static/js/2.ce5e4dec.chunk.js": "/todoz_reactjs/static/js/2.ce5e4dec.chunk.js",
+    "static/js/2.ce5e4dec.chunk.js.map": "/todoz_reactjs/static/js/2.ce5e4dec.chunk.js.map",
+    "index.html": "/todoz_reactjs/index.html",
+    "precache-manifest.39329665c20f096b0234ae45304c90f8.js": "/todoz_reactjs/precache-manifest.39329665c20f096b0234ae45304c90f8.js",
+    "service-worker.js": "/todoz_reactjs/service-worker.js",
+    "static/css/main.906cd648.chunk.css.map": "/todoz_reactjs/static/css/main.906cd648.chunk.css.map"
+  }
+}
