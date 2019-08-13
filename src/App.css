@@ -4,7 +4,7 @@ body {
 }
 
 .app {
-  width: 360px;
+  width: 100vw;
   background-color: darkblue;
   color: white;
   text-align: center;
