@@ -1,11 +1,12 @@
 body {
   display: flex;
   justify-content: center;
+  background-color: black;
 }
 
 .app {
   width: 100vw;
-  background-color: darkblue;
+  background-color: black;
   color: white;
   text-align: center;
 }
@@ -14,19 +15,16 @@ body {
   position: sticky;
   top: 0;
   padding: 5px 10px;
-  background-color: darkblue;
+  background-color: darkgreen;
 }
 
 .app-header h1 {
   margin: 0;
+  font-size: 3em;
 }
 
 .tasklist {
   border: 2px solid yellow;
-}
-
-.footer {
-  padding: 20px;
 }
 
 .task-container {
@@ -34,10 +32,18 @@ body {
   margin: 20px;
   padding: 5px;
   font-size: 1.5rem;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 250px;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
 }
 
 .task-container h5 {
   margin: 0;
+  width: 100%;
 }
 
 .task-container h3 {
@@ -52,6 +58,7 @@ body {
   background-color: lightgreen;
   cursor: pointer;
   transition: 250ms ease-in;
+  border-radius: 5px;
 }
 
 .task-container button:hover {
@@ -61,11 +68,65 @@ body {
 
 .inactive {
   background-color: gray;
+  color: darkgray;
 }
 
 .footer-container {
-  position: sticky;
+  position: fixed;
   bottom: 0;
+  width: 100vw;
   padding: 10px;
-  background-color: darkblue;
+  background-color: darkgreen;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.desc_input {
+  width: 90%;
+  font-size: 1.17em;
+  font-weight: bold;
+  border: none;
+}
+
+.when_input {
+  width: 90%;
+  font-size: 0.83em;
+}
+
+.hour_input {
+  width: 90%;
+  font-size: 0.83em;
+}
+
+.tasklist-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /*height: 100vh;*/
+  align-items: flex-start;
+}
+
+.inputs {
+  font-size: 1.2em;
+  margin: 5px;
+  border: none;
+}
+
+.submitButton {
+  border: none;
+  background-color: lightgreen;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 2em;
+  font-weight: bold;
+  color: black;
+  margin: 5px;
+}
+
+.label {
+  font-size: 2em;
+  font-weight: bold;
+  margin-right: 10px;
 }
