@@ -60,20 +60,19 @@ class Task extends React.Component {
                     <h3>{this.props.value.desc}</h3>
                     <h5>{this.props.value.when}</h5>
                     <h5>{this.props.value.hour}</h5>
-                    <h5>{this.props.value.active}</h5>
-                    <button onClick={this.handleEdit}>edit</button>
-                    <button onClick={this.handleDelete}>delete</button>
-                    <button onClick={this.handleComplete}>mark complete</button>
+                    <button className="task_buttons" onClick={this.handleEdit}>edit</button>
+                    <button className="task_buttons" onClick={this.handleDelete}>delete</button>
+                    <button className="task_buttons" onClick={this.handleComplete}>check done</button>
                 </div>
             );
         } else {
             return(
                 <div className = {classe}>
                     <form onSubmit={this.handleSaveEdit}>
-                        <input name="desc" value={this.state.taskData.desc} type="text" id="desc" onChange = {this.handleFieldChange}></input>
-                        <input name="when" value={this.state.taskData.when} type="date" onChange = {this.handleFieldChange}></input>
-                        <input name="hour" value={this.state.taskData.hour}  type="time" onChange = {this.handleFieldChange}></input>
-                        <button type="submit">save</button>
+                        <input className="desc_input" name="desc" value={this.state.taskData.desc} type="text" id="desc" onChange = {this.handleFieldChange}></input>
+                        <input className="when_input" name="when" value={this.state.taskData.when} type="date" onChange = {this.handleFieldChange}></input>
+                        <input className="hour_input" name="hour" value={this.state.taskData.hour}  type="time" onChange = {this.handleFieldChange}></input>
+                        <button className="task_buttons" type="submit">save</button>
                     </form>
                 </div>
             );

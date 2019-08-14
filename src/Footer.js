@@ -44,8 +44,9 @@ class Footer extends React.Component {
     render() {
         return (
             <form className = "footer-container" onSubmit = {this.handleSubmit}>
-                <input className="inputs" type="text" placeholder="nome da tarefa" value={this.state.desc} onChange={this.handleTextChange}/>
-                <input className="inputs" type="date" value={this.state.when} onChange={this.handleDateChange}/>
+                <label for desc class="label">New Task: </label>
+                <input name="desc" className="inputs" type="text" placeholder="task name" value={this.state.desc} onChange={this.handleTextChange} required/>
+                <input className="inputs" type="date" value={this.state.when} onChange={this.handleDateChange} required/>
                 <input className="inputs" type="time" value={this.state.hour} onChange={this.handleTimeChange}/>
                 <button type="submit" className="submitButton">+</button>
             </form>

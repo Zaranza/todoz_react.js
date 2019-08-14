@@ -7,7 +7,6 @@ import './App.css';
 class App extends React.Component {
   constructor(props) {
     super(props);
-    //this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
     this.handleRemoveTask = this.handleRemoveTask.bind(this);
     this.handleCompleteTask = this.handleCompleteTask.bind(this);
@@ -52,13 +51,16 @@ class App extends React.Component {
     return (
       <div className="app">
         <header className="app-header">
-          <h1 className ="title">yesUcan</h1>
+          <h1 className ="title">todoZ</h1>
+          <p>your daily tasks</p>
         </header>
-        <TaskList className ="tasklist"
-                  value = {this.state.tasks}
-                  onRemoveTask = {this.handleRemoveTask}
-                  onCompleteTask = {this.handleCompleteTask}
-                  onEditTask = {this.handleEditTask}/>
+        <div className= "tasklist-container">
+          <TaskList className ="tasklist"
+                    value = {this.state.tasks}
+                    onRemoveTask = {this.handleRemoveTask}
+                    onCompleteTask = {this.handleCompleteTask}
+                    onEditTask = {this.handleEditTask}/>
+        </div>
         <Footer className ="footer" onSubmit = {this.handleSubmit}/>
       </div>
     );
