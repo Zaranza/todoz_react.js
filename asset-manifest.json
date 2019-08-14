@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/todoz_reactjs/static/css/main.778133d4.chunk.css",
-    "main.js": "/todoz_reactjs/static/js/main.f4634c73.chunk.js",
-    "main.js.map": "/todoz_reactjs/static/js/main.f4634c73.chunk.js.map",
+    "main.css": "/todoz_reactjs/static/css/main.f5f10763.chunk.css",
+    "main.js": "/todoz_reactjs/static/js/main.d62aae91.chunk.js",
+    "main.js.map": "/todoz_reactjs/static/js/main.d62aae91.chunk.js.map",
     "runtime~main.js": "/todoz_reactjs/static/js/runtime~main.a70ea9a1.js",
     "runtime~main.js.map": "/todoz_reactjs/static/js/runtime~main.a70ea9a1.js.map",
     "static/js/2.ce5e4dec.chunk.js": "/todoz_reactjs/static/js/2.ce5e4dec.chunk.js",
     "static/js/2.ce5e4dec.chunk.js.map": "/todoz_reactjs/static/js/2.ce5e4dec.chunk.js.map",
     "index.html": "/todoz_reactjs/index.html",
-    "precache-manifest.b363f033fa861ecc4e8b547ceb06d993.js": "/todoz_reactjs/precache-manifest.b363f033fa861ecc4e8b547ceb06d993.js",
+    "precache-manifest.9568d2537b4af23122fe8b513c59ae20.js": "/todoz_reactjs/precache-manifest.9568d2537b4af23122fe8b513c59ae20.js",
     "service-worker.js": "/todoz_reactjs/service-worker.js",
-    "static/css/main.778133d4.chunk.css.map": "/todoz_reactjs/static/css/main.778133d4.chunk.css.map"
+    "static/css/main.f5f10763.chunk.css.map": "/todoz_reactjs/static/css/main.f5f10763.chunk.css.map"
   }
 }
